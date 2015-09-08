@@ -1,0 +1,15 @@
+{
+  "name": "verbes-francais",
+  "version": "0.0.0",
+  "description": "Réviser la conjugaison",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+		"watch": "watchify main.js -o public/script.js"
+  },
+  "author": "idris-maps.com",
+  "license": "GPL",
+  "dependencies": {
+    "browserify-zepto": "~1.1.4"
+  }
+}
